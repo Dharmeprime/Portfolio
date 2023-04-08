@@ -44,7 +44,7 @@ import {Link} from 'react-router-dom'
         </div>
 
         <div className='col-md-6'>
-          <Portfolio img={img7} link={{live: "https://prime-chi.vercel.app/valuemax.html",source: "https://prime-chi.vercel.app/"}} />
+          <Portfolio img={img7} link={{live: "https://prime-chi.vercel.app/valuemax.html",source: "https://prime-chi.vercel.app/valuemax.html"}} />
 
         </div>
 
@@ -65,7 +65,7 @@ function Portfolio({img, link}){
       <img src={img} alt="img" height={'100%'} width={'100%'} className="wer" />
       <div className="mx-auto my-auto mx-4">
         <button className="btn btn-outline-dark rounded-pill mx-4 shadow live" type="button" style={{background:'#ae5f3d'}}>
-          <Link href={link.live}>Live Demos</Link>
+          <a href={link.live}>Live Demos</a>
         </button>
 
         <button className="btn btn-outline-dark rounded-4 px-4 shadow live" type="button" style={{background:'#ae5f3d'}}>
