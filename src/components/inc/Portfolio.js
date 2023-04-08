@@ -15,12 +15,12 @@ import {Link} from 'react-router-dom'
       <div className="container d-flex justify-content-center">
       <div className="row gutter-3">
         <div className='col-md-6'>
-          <Portfolio img={img1} link={{live: "https://prime-chi.vercel.app/asana.html", source: "view-source:https://main-alpha-lyart.vercel.app/",}} />
+          <Portfolio img={img1} link={{live: "https://prime-chi.vercel.app/asana.html", source: "https://prime-chi.vercel.app/",}} />
 
         </div>
 
         <div className='col-md-6'>
-          <Portfolio img={img4} link={{live: "https://prime-chi.vercel.app/hostinger.html",source: "view-source:https://main-alpha-lyart.vercel.app/",}} />
+          <Portfolio img={img4} link={{live: "https://prime-chi.vercel.app/hostinger.html",source: "https://prime-chi.vercel.app/",}} />
 
         </div>
 
