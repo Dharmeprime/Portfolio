@@ -1,40 +1,39 @@
 import React from "react";
 import Slider from "../inc/Slider";
-import {Link} from 'react-router-dom'
-import Vmc from "../inc/Vmc";
-import Services from "../inc/Services";
-import Footer from "../inc/Footer";
-import CV from '../images/CV.pdf'
+import CV from '../images/EMMANUEL DAMILOLA.pdf'
+import Profile from '../images/prime.jpg'
 
 function Home(){
   return(
     <div>
       <br/><br/><br/>
-      <Slider />
+      
 
-      <section className="section">
-        <div className="container">
+      <section className="section mb-5" style={{backgroundImage:'url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Dusk-A330.JPG/240px-Dusk-A330.JPG")', backgroundRepeat:'no-repeat', backgroundSize:'cover', backgroundPosition:'center'}}>
+        <div className="container-fluid" >
           <div className="row">
-            <div className="col-md-12 text-center">
-              <h3 className="main-heading">Our Company</h3>
-              <div className="underline mx-auto"></div>
-              <p className="col-md-12 text-start">
-                As a Front-end engineer, I am skilled in creating visually appealing and intuitive user interface using variety of web development technologies. With my experience in HTML, CSS, Javascript, React.js, and Bootstrap, I am able to to develop and maintain scalable, responsive, and cross-browser compatible web application. <br/> I have an understanding of user-centered design principles and I am able to translate complex business requirements into simpleand effective front-end solutions. I am also proficient in using version control tools such as Git and Github, and have experience working in agile development environments. <br/>In addition, I am constantly keeping up-to-date with the latest  web development trendse and best practices. I am passionate about developing innovative and user-friendly web applications,and I am dedicated to delivering high-quality work that meets or exceeds client expectations.
-              </p>
-              <a href={CV} download className='btn btn-warning shadow'>Download My CV</a>
+            <div className="col-md-2"></div>
+            <div className="col-md-8 text-center text-white" >
+              <h1 className="fw-bolder dam mb-3">I am Damilola Emmanuel</h1>
+              <p>I am a Frontend Developer. I like dabbing in various parts of frontend development and like to learn new technologies, write technical articles or simply play games in my free time...</p>
+
+
+              <a href="https://linkedin.com" target="_blank"></a>
+
+              
             </div>
+            <div className="col-md-2"></div>
+
+            {/* <div className="col-md-6 p-5">
+              <img className="w-50 justify-content-end " style={{borderRadius: '25% 100% 25% 100%', align:'right'}} src={Profile} />
+              <img className="w-50 justify-content-end " style={{borderRadius: '25% 100% 25% 100%', align:'right'}} src={Profile} />
+
+            </div> */}
+            
           </div>
         </div> 
       </section>
-
-      {/* Vision Mission and Values */}
-      <Vmc />
-
-      {/* Our Services */}
-      <Services />
-      
-      {/* Footer */}
-      <Footer />
+      <Slider />
             
     </div>
   );

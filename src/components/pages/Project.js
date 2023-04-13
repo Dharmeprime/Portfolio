@@ -27,7 +27,8 @@ function Contact(){
 
       <section className="section  bg-c-light" style={{backgroundImage:'url(${background})', backgroundColor:'#333'}}>
         <div  className="container">
-          
+          <h3 className="main-heading text-center" >Projects</h3>
+          <div className="underline mx-auto mb-5"></div>
           
             <Portfolio />
           

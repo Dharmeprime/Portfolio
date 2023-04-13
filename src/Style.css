@@ -80,7 +80,10 @@ p{
 .live a:hover{
   color: #1b1d2e;
 }
-
+.dam{
+  font-size: 74px;
+  /* line-height: 100px; */
+}
 @media screen and (max-width: 768px) {
    .glonav a{
       color:#000;

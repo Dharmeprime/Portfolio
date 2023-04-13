@@ -8,7 +8,7 @@ function Navbar(){
     <div>
       <nav className="navbar navbar-expand-lg bg-dark fixed-top mb-5" id="product" >
         <div className="container-fluid">
-          <Link to="/" className="navbar-brand" style={{color:'white'}}><img src={Nysc}  style={{height:'30px', width:'50px'}} /> &nbsp; Prime Portfolios</Link>
+          <Link to="/" className="navbar-brand" style={{color:'white'}}><img src={Nysc}  style={{height:'30px', width:'50px', borderRadius:'100% 25% 100% 25%'}} /> Prime<span style={{color: '#f2b636'}}>Portfolios</span>  </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style={{backgroundColor:'none', border:'none'}} >
             <span className="navbar-toggler-icon my-auto " style={{width:'1rem', height:'1rem', backgroundColor:'#fff'}}></span>
           </button>

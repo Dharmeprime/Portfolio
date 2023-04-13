@@ -13,8 +13,11 @@ import {Link} from 'react-router-dom'
   function MyPort(){
     return(
       <div className="container d-flex justify-content-center">
+        
       <div className="row gutter-3">
+      
         <div className='col-md-6'>
+          
           <Portfolio img={img1} link={{live: "https://prime-chi.vercel.app/asana.html", source: "https://prime-chi.vercel.app/",}} />
 
         </div>
@@ -62,6 +65,7 @@ export default MyPort;
 function Portfolio({img, link}){
   return (
     <div className="my-3">
+      
       <img src={img} alt="img" height={'100%'} width={'100%'} className="wer" />
       <div className="mx-auto my-auto mx-4">
         <button className="btn btn-outline-dark rounded-pill mx-4 shadow live" type="button" style={{background:'#ae5f3d'}}>

@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom';
         <div className="container">
           <div className="row">
             <div className="col-md-12 mb-5 text-center">
-              <h3 className="main-heading">Our Services</h3>
+              <h3 className="main-heading">My Services</h3>
               <div className="underline mx-auto"></div>
             </div>
             <div className='col-md-4'>
@@ -31,8 +31,8 @@ import {Link} from 'react-router-dom';
                 <img  className="card-img-top w-50 mx-auto border-bottom pt-3"   src={Service2} alt="" />
                 <div className="card-body">
                   <p className="fw-bold px-1 card-title mt-4">INTEGRATION WITH BACK-END SYSTEMS</p>
-                  <div className='underline mx-auto'></div>
-                  <p>
+                  <div className='underline mx-auto '></div>
+                  <p className='w-100'>
                     We work closely with back-end developers to ensure the user interface is properly integrated with the back-end systems. This involves understanding APIs, database structures and server-side code.
                   </p>
                   {/* <Link to='/services' className="btn btn-link">KNOW MORE</Link> */}
