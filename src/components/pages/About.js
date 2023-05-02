@@ -13,11 +13,11 @@ function About(){
           <br/><br/><br/>
           <div className='row'>
             <div className='col-md-4 my-auto'>
-              <h4>About Us</h4>
+              <h4>About</h4>
 
             </div>
             <div className='col-md-8 my-auto'>
-              <h6 className="float-end">Home / About Us</h6>
+              <h6 className="float-end">Home / About</h6>
 
             </div>
 
@@ -32,7 +32,7 @@ function About(){
             <div className="col-md-12 text-center">
               <h3 className="main-heading">Who Prime is</h3>
               <div className="underline mx-auto"></div>
-              <p className="col-md-12 text-start">
+              <p className="col-md-12 " style={{textAlign: 'justify'}}>
                 As a Front-end engineer, I am skilled in creating visually appealing and intuitive user interface using variety of web development technologies. With my experience in HTML5, CSS3, Javascript, React.js, and Bootstrap, I am able to to develop and maintain scalable, responsive, and cross-browser compatible web application. <br/> I have an understanding of user-centered design principles and I am able to translate complex business requirements into simple and effective front-end solutions. I am also proficient in using version control tools such as Git and Github, and have experience working in agile development environments. <br/>In addition, I am constantly keeping up-to-date with the latest  web development trends and best practices. I am passionate about developing innovative and user-friendly web applications,and I am dedicated to delivering high-quality work that meets or exceeds client expectations.
               </p>
               <a href={CV} download className='btn btn-warning shadow'>Download My CV</a>
