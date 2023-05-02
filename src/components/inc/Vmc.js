@@ -9,21 +9,21 @@ import React from 'react'
               <div className="underline mx-auto"></div>
             </div>
             <div className='col-md-4 text-center'>
-              <h6>Our Vision</h6>
+              <h6>Vision</h6>
               <p>
                 To create a user interface that enhance the way people intract with technology and make the web more accessible, user-friendly, and inclusive.
               </p>
             </div>
             <div className='col-md-4 text-center'>
-              <h6>Our Mission</h6>
+              <h6>Mission</h6>
               <p>
-                Our Mission involves developing user interface that are visually appealing, creating responsive and intuitive user experiences, writing high-quality and maintainable code, collaborating with other members of a development teams and staying up-to-date with new technologies and best practices.
+                My Mission involves developing user interface that are visually appealing, creating responsive and intuitive user experiences, writing high-quality and maintainable code, collaborating with other members of a development teams and staying up-to-date with new technologies and best practices.
               </p>
             </div>
             <div className='col-md-4 text-center'>
-              <h6>Our Core Value</h6>
+              <h6>Core Value</h6>
               <p>
-                Our Core value revolves around creating high quality, accessible, and user friendly web interfaces that solve real-world problems. Our core values include continuous learning, user-centered design, collaboration, quality and maintainability, accessibility and inclusivity, innovation and ethical consideration.
+                My Core value revolves around creating high quality, accessible, and user friendly web interfaces that solve real-world problems. Our core values include continuous learning, user-centered design, collaboration, quality and maintainability, accessibility and inclusivity, innovation and ethical consideration.
               </p>
             </div>
           </div>

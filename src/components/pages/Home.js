@@ -15,7 +15,10 @@ function Home(){
             <div className="col-md-2"></div>
             <div className="col-md-8 text-center text-white" >
               <h1 className="fw-bolder dam mb-3">I am Damilola Emmanuel</h1>
-              <p>I am a Frontend Developer. I like dabbing in various parts of frontend development and like to learn new technologies, write technical articles or simply play games in my free time...</p>
+              <p>Hello and welcome to my landing page! I am an entry-level front-end developer seeking an internship to gain valuable hands-on experience in the industry. With a solid understanding in HTML5, CSS3 Javascript, Bootstrap, React and various front-end frameworks, I am eager to contribute to your team and learn from experienced professionals. Take a look at my portfolio to see examples of my work, and feel free to contact me to discuss how I can support your company's misson. Let's work together to achieve our goals! </p>
+
+              <a href={CV} download className='btn btn-warning shadow'>Download My CV</a>
+
 
 
               <a href="https://linkedin.com" target="_blank"></a>
